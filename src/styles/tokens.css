@@ -1,0 +1,50 @@
+:root {
+  /* Official GMS identity colors */
+  --brand-navy: #082863;
+  --brand-blue: #075abe;
+  --brand-gold: #d89c18;
+  --brand-gold-light: #f7c548;
+
+  /* Surfaces */
+  --background: #ffffff;
+  --surface: #f4f7fb;
+  --surface-raised: #ffffff;
+  --surface-blue: #eaf1fb;
+  --surface-blue-strong: #dfe9f7;
+  --surface-gold: #fff4dc;
+  --surface-gold-strong: #fce8b3;
+
+  /* Text and controls */
+  --text-primary: var(--brand-navy);
+  --text-secondary: #52647e;
+  --text-on-dark: #f4f7fb;
+  --text-on-dark-muted: #cbd7e9;
+  --color-primary: var(--brand-blue);
+  --color-primary-hover: var(--brand-navy);
+  --color-accent: var(--brand-gold);
+  --border-color: #dce4ef;
+  --border-strong: #bdcbe0;
+  --focus-ring: var(--brand-blue);
+  --focus-ring-on-dark: var(--brand-gold-light);
+
+  /* Shared treatments for dark sections and artwork */
+  --on-dark-outline: rgb(255 255 255 / 20%);
+  --on-dark-outline-soft: rgb(255 255 255 / 9%);
+  --on-dark-outline-faint: rgb(255 255 255 / 5%);
+  --glow-gold-soft: rgb(216 156 24 / 20%);
+  --glow-gold-strong: rgb(216 156 24 / 42%);
+  --glow-gold-faint: rgb(216 156 24 / 6%);
+  --glow-blue-soft: rgb(7 90 190 / 7%);
+  --header-overlay: rgb(255 255 255 / 94%);
+  --controls-overlay: rgb(255 255 255 / 82%);
+  --shadow-soft: rgb(8 40 99 / 9%);
+  --shadow-art: rgb(8 40 99 / 15%);
+  --art-outline: rgb(8 40 99 / 18%);
+  --art-navy: var(--brand-navy);
+  --art-blue: var(--brand-blue);
+  --art-gold: var(--brand-gold);
+  --art-gold-light: var(--brand-gold-light);
+  --art-white: var(--background);
+  --art-blue-mid: #3f7fc9;
+  --art-blue-light: #a9c8ec;
+}

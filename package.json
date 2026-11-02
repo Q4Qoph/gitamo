@@ -1,0 +1,17 @@
+{
+  "name": "gms-arc-website",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "cf:preview": "npm run build && npx --yes wrangler@4.156.1 dev",
+    "cf:deploy": "npm run build && npx --yes wrangler@4.156.1 deploy"
+  },
+  "dependencies": {
+    "astro": "^7.0.0"
+  }
+}
